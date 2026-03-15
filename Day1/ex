@@ -1,0 +1,35 @@
+副檔名
+.py python檔案
+.txt (text)文字檔
+.exe 執行檔
+.jpg 圖片檔
+.mp3 音樂檔
+.mp4 影片檔
+.pdf 文件檔
+.ppt 簡報檔
+
+HotKeys
+shift + 方向鍵 -> 選取
+Ctrl + D -> 重複選取
+Ctrl + A -> 全選
+Ctrl + C -> 複製
+Ctrl + X -> 剪下
+Ctrl + V -> 貼上
+Ctrl + Z -> 上一步
+Ctrl + shift + Z -> 下一步
+Alt + 方向鍵 -> 移動橫排
+
+terminal 終端機
+1 computer 
+-> user 1 (以為他有自己的電腦)
+-> user 2
+-> user 3
+-> user 4
+...
+->
+C://Desktop/abc.jpg
+ls 檢視資料夾內容
+cd 選擇資料夾
+../ 上一層
+TAB 自動完成
+python _filename_ 執行python檔案
