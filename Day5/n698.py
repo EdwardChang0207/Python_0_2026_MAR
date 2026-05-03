@@ -1,0 +1,8 @@
+R = float(input())
+if R < 15: print(20)
+elif R < 15.5: print(15)
+elif R < 16: print(10)
+elif R < 16.5: print(7)
+elif R < 17: print(3)
+elif R < 17.43: print(1)
+else: print(0)

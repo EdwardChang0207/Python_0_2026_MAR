@@ -45,10 +45,13 @@
             blacklist (a and b)
             whitelist and blacklist
             (a or b) and not(a and b) -> xor
-        [2] binary
+        [2] binary ^
 '''
 
-a, b = False, False
-print(a or b)
-print(a and b)
-print((a or b) and not(a and b)) 
+a, b = 5, 7
+# print(a or b)
+# print(a and b)
+print((a or b) and not(a and b))
+print(a^b)
+
+#(a or b) and not(a and b) == a^b ? X
