@@ -44,9 +44,23 @@ i % 3 == 0 ?
 9 / 3 = 3...0
 19 / 4 = 4...3
 19 % 4 = 3
-'''
 for i in range(10):
     if i % 3 == 0: continue#如果遇到3的倍數就跳過
     if i == 8: break
     print(i)
 
+l = [i for i in range(10)]
+print(l)
+
+a = ['123','456','789']
+l = [int(i) for i in a]
+print(l)
+
+l = [int(i) for i in input().split()]
+print(l)
+#input -> int
+#'10 20 30'-> ['10','20','30'] -> [10, 20, 30]
+'''
+
+l = [i for i in range(10) if i % 3 != 0]
+print(l)
